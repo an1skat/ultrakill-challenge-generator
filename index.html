@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ULTRAKILL Challenge Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>ULTRAKILL Challenge Generator</h1>
+
+    <ul>
+      <li>
+        <label>
+          <input type="checkbox" id="mainLevelsCheckbox" checked />
+          Main Levels(0-1...7-4)
+        </label>
+      </li>
+      <li>
+        <label>
+          <input type="checkbox" id="secretLevelsCheckbox" />
+          Secret Levels
+        </label>
+      </li>
+      <li>
+        <label>
+          <input type="checkbox" id="primeLevelsCheckbox" />
+          Prime Sanctums
+        </label>
+      </li>
+      <li>
+        <label>
+          <input type="checkbox" id="encoreLevelsCheckbox" />
+          Encores
+        </label>
+      </li>
+      <li>
+        <label>
+          <input type="checkbox" id="hardModeCheckbox" />
+          HARMODE
+        </label>
+      </li>
+    </ul>
+
+    <button data-click>Сгенерировать</button>
+
+    <div id="result"></div>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
